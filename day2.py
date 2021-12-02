@@ -1,4 +1,4 @@
-with open("advent.txt") as nums:
+with open("advent_data.txt") as nums:
     num_list = [num.replace("\n", "") for num in nums.readlines()]
 
 position = 0
